@@ -10,5 +10,6 @@ document.getElementById("registerForm").addEventListener("submit", function(even
     alert("Будь ласка, заповніть усі поля!");
   } else {
     alert("Форма успішно відправлена!");
+    console.log("Користувач заповнив форму успішно!");
   }
 });
